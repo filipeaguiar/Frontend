@@ -11,17 +11,14 @@
 
   <title>Sistema de Gestão de Chamados</title>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- MetisMenu CSS -->
-  <link href="css/metisMenu.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/metisMenu/dist/metisMenu.css" />
+  <!-- endbower -->
+  <!-- build:css(.tmp) styles/sb-admin.css -->
+  <link href="styles/sb-admin-2.css" rel="stylesheet">
+  <!-- endbuild -->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -451,20 +448,19 @@
   </div>
   <!-- /#wrapper -->
 
-  <!-- jQuery -->
-  <script src="js/jquery.min.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Metis Menu Plugin JavaScript -->
-  <script src="js/metisMenu.min.js"></script>
-
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/metisMenu/dist/metisMenu.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:js(.) scripts/plugins.js -->
+  <!-- endbuild -->
+  <!-- build:js({app,.tmp}) scripts/main.js -->
+  <!-- endbuild -->
   <!-- Custom Site js -->
-  <script src="js/custom.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <!-- <script src="../dist/js/sb-admin-2.js"></script> -->
+  <script src="scripts/custom.js"></script>
 
 </body>
 
